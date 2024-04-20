@@ -1,0 +1,24 @@
+header{
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 55vh;
+    margin-bottom: 5rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+
+}
+.header_left h1{
+    color: var(--color-bg1);
+}
+
+.header_left p{
+    margin: 1rem 0 2.4rem;
+    color: #1f2641;
+}
